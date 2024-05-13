@@ -25,18 +25,25 @@ with open("tests_data.json", "r") as fd:
         session.add(model(id=add_.get("pk1"), **add_.get("fields")))
 session.commit()
 
-def info_sale(id_=input("Введите ID писателя:")):
-    str_ = ""
+
+def info_salle(publisher_):
+
+
     q = (session.query(Publisher, Book.title, Shop.name, Sale.price, Sale.date_sale)
          .join(Book)
          .join(Stock)
          .join(Shop)
          .join(Sale)
-         .filter(Publisher.id == id_)
          )
+    if publisher_.isdigit():
+        res = q.filter(Publisher.id == publisher_).all()
+    else:
+        res = q.filter(Publisher.name.like(publisher_)).all()
+    for i in res:
+        print(f"{i.title: <40} | {i.name: <10} | {i.price: <8} | {i.date_sale.strftime("%d-%m-%Y")}")
 
-    for c in q.all():
-        str_ += f"{c.title} | {c.name} | {c.price} | {c.date_sale} \n"
-    return str_
-print(info_sale())
 session.close()
+if __name__ == "__main__":
+
+    info_ = input("Введите id или имя издателя: ")
+    info_salle(info_)
