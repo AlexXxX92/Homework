@@ -11,7 +11,7 @@ import pytest
 def test_creat_new_ya_folder(folder_path, folder_name, status_code):
 
     url ='https://cloud-api.yandex.net/v1/disk/resources'
-    token = ''# Нужен Токкен яндекса
+    token = '' # Нужен токен яндекс диска
 
     headers = {'Authorization': token
                }
