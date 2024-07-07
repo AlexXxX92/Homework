@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dbff2136-1a81-4661-aa78-a6f4f10bf2bb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_main/seleniym_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main/seleniym_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_main/test_pytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main/test_pytest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,22 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests in seleniym_test.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_main.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_main_unitest.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_pytest.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Unittests in test_main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.seleniym_test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/учеба/project/new/program/test_main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in seleniym_test.py.executor": "Run",
+    "Python tests.Python tests in test_main.py.executor": "Run",
+    "Python tests.Python tests in test_main_unitest.py.executor": "Run",
+    "Python tests.Python tests in test_pytest.py.executor": "Run",
+    "Python tests.Unittests in test_main.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.seleniym_test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/учеба/programming",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\учеба\project\new\program" />
